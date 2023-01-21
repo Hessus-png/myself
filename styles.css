@@ -1,0 +1,38 @@
+body {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+h1 {
+    height: 60px;
+    align-self: center;
+    color: blue;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.options { 
+    display: flex;
+    justify-content: space-around;
+    color: blueviolet;
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+.weeb, .card, .fgc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
